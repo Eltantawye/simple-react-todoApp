@@ -20,7 +20,7 @@ addTodo = (todo) => {
 this.setState({
   todos : [...this.state.todos,{id : id , content : todo.content}]
 });
-console.log(this.state.todos);
+
 }
   render() {
     return (
